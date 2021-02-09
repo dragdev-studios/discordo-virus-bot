@@ -1,0 +1,17 @@
+{
+  prefixes: ["e/", "E/"],
+  virus_name: "discordo",
+  database_path: "./db/data.db",  // `.` is `bot.py`. This is where the sqlite3 database will be.
+
+  // While these aren't required, they are certainly recommended.
+  generic_log_channel: null,  // integer (channel ID)
+  exception_log_channel: null, // integer (channel ID
+  infect_message: "{user.display_name} has been infected! :eyes:",  // message to send when someone becomes infected.
+  healed_message: "{user.display_name} has been healed :tada:",     // Sent when someone becomes virus-free
+  research_advanced_message: "The cure's research has advanced! The cure is now {now}/{total} researched!", // sent when the cure is advanced.
+  cure_created_message: "The cure has been created and is now being distributed. Thanks to {users}!"  // sent when the cure is created.
+
+
+  // DO NOT EDIT BELOW!
+  // It contains metadata the bot uses on-the-fly.
+}
